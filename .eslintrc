@@ -1,0 +1,16 @@
+{  "env": {
+  "node": true
+},
+  "globals": {
+    "d3": true,
+    "$": true,
+    "chrome": true,
+    "jQuery": true,
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "after": true,
+    "before": true
+  },
+  "extends": ["standard"]}
