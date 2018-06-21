@@ -1,9 +1,9 @@
-const Queue = require('./../../extension/scripts/Queue')
+const Queue = require('./../../slave/scripts/Queue')
 const assert = require('chai').assert
 
-const Sitemap = require('./../../extension/scripts/Sitemap')
+const Sitemap = require('./../../slave/scripts/Sitemap')
 const FakeStore = require('./../FakeStore')
-const Scraper = require('./../../extension/scripts/Scraper')
+const Scraper = require('./../../slave/scripts/Scraper')
 const utils = require('./../utils')
 const globals = require('../globals')
 

@@ -1,4 +1,4 @@
-var whenCallSequentially = require('../../extension/assets/jquery.whencallsequentially')
+var whenCallSequentially = require('../../slave/assets/jquery.whencallsequentially')
 var jquery = require('jquery-deferred')
 const assert = require('chai').assert
 

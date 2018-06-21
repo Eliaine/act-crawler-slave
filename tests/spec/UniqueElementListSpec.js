@@ -1,4 +1,4 @@
-const UniqueElementList = require('../../extension/scripts/UniqueElementList')
+const UniqueElementList = require('../../slave/scripts/UniqueElementList')
 const utils = require('./../utils')
 const assert = require('chai').assert
 const globals = require('../globals')

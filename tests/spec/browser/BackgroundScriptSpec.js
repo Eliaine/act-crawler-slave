@@ -1,5 +1,5 @@
-const getBackgroundScript = require('../../../extension/scripts/getBackgroundScript')
-const getContentScript = require('../../../extension/scripts/getContentScript')
+const getBackgroundScript = require('../../../slave/scripts/getBackgroundScript')
+const getContentScript = require('../../../slave/scripts/getContentScript')
 const selectorMatchers = require('../../Matchers')
 const utils = require('../../utils')
 

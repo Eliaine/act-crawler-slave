@@ -1,5 +1,5 @@
-const Queue = require('./../../extension/scripts/Queue')
-const Job = require('./../../extension/scripts/Job')
+const Queue = require('./../../slave/scripts/Queue')
+const Job = require('./../../slave/scripts/Job')
 const assert = require('chai').assert
 
 describe('Queue', function () {

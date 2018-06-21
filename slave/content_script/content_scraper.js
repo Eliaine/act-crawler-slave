@@ -1,6 +1,6 @@
 var DataExtractor = require('./../scripts/DataExtractor')
 var getContentScript = require('./../scripts/getContentScript')
-const debug = require('debug')('web-scraper-headless:content_scraper')
+const debug = require('debug')('act-crawler-slave:content_scraper')
 function extensionListener (request, sender, sendResponse, options) {
   var $ = options.$
   var document = options.document

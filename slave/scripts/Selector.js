@@ -1,7 +1,7 @@
 var selectors = require('./Selectors')
 var ElementQuery = require('./ElementQuery')
 var jquery = require('jquery-deferred')
-const debug = require('debug')('web-scraper-headless:selector')
+const debug = require('debug')('act-crawler-slave:selector')
 
 var Selector = function (selector, options) {
   var $ = options.$

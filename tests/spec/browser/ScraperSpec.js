@@ -1,10 +1,10 @@
-const Queue = require('./../../../extension/scripts/Queue')
+const Queue = require('./../../../slave/scripts/Queue')
 const assert = require('chai').assert
 
-const ChromePopupBrowser = require('./../../../extension/scripts/ChromePopupBrowser')
-const Sitemap = require('./../../../extension/scripts/Sitemap')
+const ChromePopupBrowser = require('./../../../slave/scripts/ChromePopupBrowser')
+const Sitemap = require('./../../../slave/scripts/Sitemap')
 const FakeStore = require('./../../FakeStore')
-const Scraper = require('./../../../extension/scripts/Scraper')
+const Scraper = require('./../../../slave/scripts/Scraper')
 const utils = require('./../../utils')
 const globals = require('../../globals')
 

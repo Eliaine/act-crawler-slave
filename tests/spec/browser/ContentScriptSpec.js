@@ -1,4 +1,4 @@
-const getContentScript = require('../../../extension/scripts/getContentScript')
+const getContentScript = require('../../../slave/scripts/getContentScript')
 const selectorMatchers = require('../../Matchers')
 const utils = require('../../utils')
 const assert = require('chai').assert

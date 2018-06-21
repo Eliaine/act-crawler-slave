@@ -1,7 +1,7 @@
 const globals = require('./globals')
 const jsdom = require('jsdom')
 const jQuery = require('jquery')
-const Browser = require('./../extension/scripts/JSDOMBrowser')
+const Browser = require('./../slave/scripts/JSDOMBrowser')
 beforeEach(function () {
   const {JSDOM} = jsdom
   const dom = new JSDOM()

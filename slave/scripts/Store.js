@@ -1,5 +1,5 @@
 var Sitemap = require('./Sitemap')
-const debug = require('debug')('web-scraper-headless:store')
+const debug = require('debug')('act-crawler-slave:store')
 var Store = function (config, options) {
   this.config = config
   this.$ = options.$

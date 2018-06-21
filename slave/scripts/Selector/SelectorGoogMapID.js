@@ -1,6 +1,6 @@
 const url = require('url')
 const jquery = require('jquery-deferred')
-const debug = require('debug')('web-scraper-headless:selector-goog-map-id')
+const debug = require('debug')('act-crawler-slave:selector-goog-map-id')
 
 var SelectorGoogMapID = {
 

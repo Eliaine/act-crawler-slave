@@ -1,6 +1,6 @@
 var jquery = require('jquery-deferred')
 var whenCallSequentially = require('../assets/jquery.whencallsequentially')
-const debug = require('debug')('web-scraper-headless:chrome-popup-browser')
+const debug = require('debug')('act-crawler-slave:chrome-popup-browser')
 var ChromePopupBrowser = function (options) {
   this.pageLoadDelay = options.pageLoadDelay
 

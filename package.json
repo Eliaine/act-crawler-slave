@@ -12,14 +12,14 @@
       "patterns": [
         "extension"
       ],
-      "ignore": "extension/generated",
+      "ignore": "slave/generated",
       "extensions": "js"
     }
   },
   "standard": {
     "ignore": [
-      "extension/generated",
-      "extension/assets"
+      "slave/generated",
+      "slave/assets"
     ],
     "globals": [
       "d3",

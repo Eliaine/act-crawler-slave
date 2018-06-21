@@ -4,7 +4,7 @@ var jqueryDeferred = require('jquery-deferred')
 
 const contentScraper = require('../content_script/content_scraper')
 var whenCallSequentially = require('../assets/jquery.whencallsequentially')
-const debug = require('debug')('web-scraper-headless:jsdom-browser')
+const debug = require('debug')('act-crawler-slave:jsdom-browser')
 var JSDOMBrowser = function (options) {
   this.pageLoadDelay = options.pageLoadDelay
 }

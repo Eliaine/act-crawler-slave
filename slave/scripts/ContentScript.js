@@ -1,6 +1,6 @@
 var ContentSelector = require('./ContentSelector')
 var jquery = require('jquery-deferred')
-const debug = require('debug')('web-scraper-headless:content-script')
+const debug = require('debug')('act-crawler-slave:content-script')
 
 /**
  * ContentScript that can be called from anywhere within the extension

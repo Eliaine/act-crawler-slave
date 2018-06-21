@@ -1,4 +1,4 @@
-var Selector = require('../../../../extension/scripts/Selector')
+var Selector = require('../../../../slave/scripts/Selector')
 const utils = require('../../../utils')
 const assert = require('chai').assert
 const globals = require('../../../globals')

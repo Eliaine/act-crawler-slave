@@ -1,7 +1,7 @@
 var whenCallSequentially = require('../../assets/jquery.whencallsequentially')
 var jquery = require('jquery-deferred')
 var CssSelector = require('css-selector').CssSelector
-const debug = require('debug')('web-scraper-headless:selector:selector-popup-link')
+const debug = require('debug')('act-crawler-slave:selector:selector-popup-link')
 var SelectorPopupLink = {
   canReturnMultipleRecords: function () {
     return true

@@ -1,7 +1,7 @@
 const assert = require('chai').assert
-const Sitemap = require('../../extension/scripts/Sitemap')
-const Selector = require('../../extension/scripts/Selector')
-const SelectorList = require('../../extension/scripts/SelectorList')
+const Sitemap = require('../../slave/scripts/Sitemap')
+const Selector = require('../../slave/scripts/Selector')
+const SelectorList = require('../../slave/scripts/SelectorList')
 const globals = require('../globals')
 
 describe('Sitemap', function () {

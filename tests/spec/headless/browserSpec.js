@@ -1,11 +1,11 @@
-const ChromeHeadlessBrowser = require('./../../../extension/scripts/ChromeHeadlessBrowser')
+const ChromeHeadlessBrowser = require('./../../../slave/scripts/ChromeHeadlessBrowser')
 const sinon = require('sinon')
 const assert = require('chai').assert
 const utils = require('./../../utils')
-const Queue = require('./../../../extension/scripts/Queue')
-const Sitemap = require('./../../../extension/scripts/Sitemap')
+const Queue = require('./../../../slave/scripts/Queue')
+const Sitemap = require('./../../../slave/scripts/Sitemap')
 const FakeStore = require('./../../FakeStore')
-const Scraper = require('./../../../extension/scripts/Scraper')
+const Scraper = require('./../../../slave/scripts/Scraper')
 
 describe('Headless browser', function () {
   let sandbox

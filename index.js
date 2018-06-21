@@ -1,10 +1,10 @@
-const Queue = require('./extension/scripts/Queue')
-const Sitemap = require('./extension/scripts/Sitemap')
-const InMemoryStore = require('./extension/scripts/InMemoryStore')
-const Scraper = require('./extension/scripts/Scraper')
-const debug = require('debug')('web-scraper-headless:index')
-const JSDOMBrowser = require('./extension/scripts/JSDOMBrowser')
-const ChromeHeadlessBrowser = require('./extension/scripts/ChromeHeadlessBrowser')
+const Queue = require('./slave/scripts/Queue')
+const Sitemap = require('./slave/scripts/Sitemap')
+const InMemoryStore = require('./slave/scripts/InMemoryStore')
+const Scraper = require('./slave/scripts/Scraper')
+const debug = require('debug')('act-crawler-slave:index')
+const JSDOMBrowser = require('./slave/scripts/JSDOMBrowser')
+const ChromeHeadlessBrowser = require('./slave/scripts/ChromeHeadlessBrowser')
 /**
  *
  * @param sitemap

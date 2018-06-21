@@ -1,4 +1,4 @@
-const Browser = require('./../../../extension/scripts/JSDOMBrowser')
+const Browser = require('./../../../slave/scripts/JSDOMBrowser')
 
 it('Handle error in jsdom', function (done) {
   Browser.prototype.loadUrl = function (url, callback) {

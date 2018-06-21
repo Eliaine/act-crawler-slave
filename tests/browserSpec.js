@@ -1,6 +1,6 @@
 const globals = require('./globals')
 const $ = require('jquery')
-const ChromePopupBrowser = require('../extension/scripts/ChromePopupBrowser')
+const ChromePopupBrowser = require('../slave/scripts/ChromePopupBrowser')
 beforeEach(function () {
   globals.window = window
   globals.document = document

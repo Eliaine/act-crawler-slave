@@ -1,4 +1,4 @@
-const Job = require('./../../extension/scripts/Job')
+const Job = require('./../../slave/scripts/Job')
 const assert = require('chai').assert
 
 describe('Job', function () {

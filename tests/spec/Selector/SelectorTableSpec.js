@@ -1,5 +1,5 @@
-const Selector = require('../../../extension/scripts/Selector')
-const SelectorTable = require('../../../extension/scripts/Selector/SelectorTable')
+const Selector = require('../../../slave/scripts/Selector')
+const SelectorTable = require('../../../slave/scripts/Selector/SelectorTable')
 const utils = require('./../../utils')
 const assert = require('chai').assert
 const globals = require('../../globals')

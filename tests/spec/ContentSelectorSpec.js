@@ -1,7 +1,7 @@
 const utils = require('./../utils')
 const assert = require('chai').assert
 const selectorMatchers = require('../Matchers')
-const ContentSelector = require('../../extension/scripts/ContentSelector')
+const ContentSelector = require('../../slave/scripts/ContentSelector')
 const globals = require('../globals')
 // This is to select elements
 describe('ContentSelector', function () {

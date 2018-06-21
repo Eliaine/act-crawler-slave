@@ -1,4 +1,4 @@
-const ElementQuery = require('../../extension/scripts/ElementQuery')
+const ElementQuery = require('../../slave/scripts/ElementQuery')
 const assert = require('chai').assert
 const utils = require('./../utils')
 const globals = require('../globals')

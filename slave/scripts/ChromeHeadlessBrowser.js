@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer')
-const debug = require('debug')('web-scraper-headless:chrome-headless-browser')
+const debug = require('debug')('act-crawler-slave:chrome-headless-browser')
 const {ExecutionContext} = require('puppeteer/lib/ExecutionContext')
 const contentSraperBundler = require('../content_script/contentScraperHeadlessBundler')
 const jqueryDeferred = require('jquery-deferred')
@@ -52,7 +52,7 @@ class ChromeHeadlessBrowser {
       const mainFrame = page.mainFrame()
 
       // Maybe we don't need a context each time?
-      const isolatedWorldInfo = await page._client.send('Page.createIsolatedWorld', {frameId: mainFrame._id, worldName: 'web-scraper-headless'})
+      const isolatedWorldInfo = await page._client.send('Page.createIsolatedWorld', {frameId: mainFrame._id, worldName: 'act-crawler-slave'})
       const executionContextId = isolatedWorldInfo.executionContextId
       const JsHandleFactory = page._frameManager.createJSHandle.bind(page._frameManager, executionContextId)
 

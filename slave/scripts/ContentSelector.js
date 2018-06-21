@@ -1,7 +1,7 @@
 var ElementQuery = require('./ElementQuery')
 var jquery = require('jquery-deferred')
 var CssSelector = require('css-selector').CssSelector
-const debug = require('debug')('web-scraper-headless:content-selector')
+const debug = require('debug')('act-crawler-slave:content-selector')
 /**
  * @param options.parentCSSSelector	Elements can be only selected within this element
  * @param options.allowedElements	Elements that can only be selected

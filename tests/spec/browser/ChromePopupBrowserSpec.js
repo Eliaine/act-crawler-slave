@@ -1,5 +1,5 @@
-const ChromePopupBrowser = require('../../../extension/scripts/ChromePopupBrowser')
-const Sitemap = require('../../../extension/scripts/Sitemap')
+const ChromePopupBrowser = require('../../../slave/scripts/ChromePopupBrowser')
+const Sitemap = require('../../../slave/scripts/Sitemap')
 const assert = require('chai').assert
 const utils = require('../../utils')
 const globals = require('../../globals')

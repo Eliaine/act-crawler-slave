@@ -1,5 +1,5 @@
 var jquery = require('jquery-deferred')
-const debug = require('debug')('web-scraper-headless:background-script')
+const debug = require('debug')('act-crawler-slave:background-script')
 
 /**
  * ContentScript that can be called from anywhere within the extension
