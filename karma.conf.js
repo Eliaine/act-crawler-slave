@@ -13,12 +13,12 @@ module.exports = function (config) {
     preprocessors: _.mapValues(_.keyBy(files), () => ['browserify']),
     // list of files / patterns to load in the browser
     files: [
-      'extension/assets/sugar-1.4.1.js',
-      'extension/assets/pouchdb-nightly.min.js',
+      'slave/assets/sugar-1.4.1.js',
+      'slave/assets/pouchdb-nightly.min.js',
       'tests/ChromeAPI.js',
-      'extension/generated/background-scraper.js', // not very nice, we need to load the background script to listen to the messages
-      'extension/generated/content-scraper.js',
-      'extension/content_script/content_script.js',
+      'slave/generated/background-scraper.js', // not very nice, we need to load the background script to listen to the messages
+      'slave/generated/content-scraper.js',
+      'slave/content_script/content_script.js',
       'docs/images/chrome-store-logo.png',
       ...files
     ],

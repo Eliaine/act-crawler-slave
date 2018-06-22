@@ -51,21 +51,21 @@ function generateBuilder (isWatch, debug) {
   const bundlerBackground = wrapper(browserify({
     standalone: 'backgroundScraper',
     entries: [
-      'extension/background_page/background_script.js'
+      'slave/background_page/background_script.js'
     ],
     debug
   }))
   const bundlerScraper = wrapper(browserify({
     standalone: 'contentScraper',
     entries: [
-      'extension/content_script/content_scraper_browser.js'
+      'slave/content_script/content_scraper_browser.js'
     ],
     debug
   }))
   const bundlerDevtools = wrapper(browserify({
     standalone: 'contentScraper',
     entries: [
-      'extension/scripts/App.js'
+      'slave/scripts/App.js'
     ],
     debug
   }))
@@ -79,7 +79,7 @@ function generateBuilder (isWatch, debug) {
         return notify().write(err)
       })
       .pipe(source(file))
-      .pipe(gulp.dest('extension/generated/'))
+      .pipe(gulp.dest('slave/generated/'))
       .on('error', function (e) {
         console.error(e)
       })
